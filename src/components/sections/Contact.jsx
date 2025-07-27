@@ -8,9 +8,9 @@ export const Contact = () => {
     email: "",
     message: "",
   });
-  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID
-  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID
-  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY
+  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,7 +31,7 @@ export const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 w-150">
+        <div className="w-full px-4 lg:w-[600px] mx-auto">
           <h2
             className="text-3xl font-bold mb-8 bg-gradient-to-r 
                 from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center"
