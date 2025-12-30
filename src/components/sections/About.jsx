@@ -94,54 +94,92 @@ export const About = () => {
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💻 Work Experience</h3>
-              <div className="space-y-4 text-gray-300">
+
+              <div className="space-y-6 text-gray-300">
+                {/* TrueTech */}
                 <div>
                   <h4 className="font-bold">
-                    Fullstack Engineer at Future Media Marketing (May 2025 -
-                    Present)
+                    Fullstack Developer (Laravel + Next.js) — TrueTech
                   </h4>
-                  <br></br>
-                  <p>
-                    As a Fullstack Software Engineer, I led the development of a
-                    complete content creator management platform using Laravel
-                    and React. On the backend, I built scalable APIs, automated
-                    financial workflows, and implemented secure role-based
-                    access. On the frontend, I crafted dynamic, responsive
-                    interfaces for both admins and creators, delivering smooth
-                    user experiences. The platform also features public-facing
-                    pages visited by thousands of followers, making performance
-                    and reliability critical. This project combined clean
-                    architecture, real-time analytics, and user-focused design
-                    to solve real business needs efficiently.
+                  <span className="text-sm text-gray-400">
+                    Sep 2025 – Present · Onsite
+                  </span>
+
+                  <p className="mt-3">
+                    Engineered full-stack web applications using Laravel and Next.js,
+                    delivering scalable and high-performance platforms with optimized user
+                    experiences. Applied clean architecture principles and design patterns
+                    to build maintainable, modular systems with secure API communication.
+                  </p>
+
+                  <ul className="list-disc list-inside mt-3 space-y-1 text-gray-400">
+                    <li>
+                      Optimized backend workflows using Redis caching, queues, and efficient
+                      database design to handle high-traffic operations.
+                    </li>
+                    <li>
+                      Implemented CI/CD pipelines to automate testing and deployment,
+                      ensuring production-grade code quality.
+                    </li>
+                    <li>
+                      Collaborated closely with mobile teams (Flutter & native) to deliver
+                      unified APIs and consistent cross-platform data flows.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Future Media */}
+                <div>
+                  <h4 className="font-bold">
+                    Fullstack Engineer — Future Media Marketing
+                  </h4>
+                  <span className="text-sm text-gray-400">
+                    May 2025 – Present
+                  </span>
+
+                  <p className="mt-3">
+                    Led the development of a complete content creator management platform
+                    using Laravel and React. Built scalable APIs, automated financial
+                    workflows, and implemented secure role-based access. Delivered dynamic
+                    dashboards for admins and creators, alongside high-traffic public pages
+                    optimized for performance and reliability.
                   </p>
                 </div>
+
+                {/* AI Evaluator */}
                 <div>
                   <h4 className="font-bold">
-                    AI Model Evaluator & Code Review Specialist at AI Training
-                    Platforms(Oct 2024 - Apr 2025)
+                    AI Model Evaluator & Code Review Specialist — AI Training Platforms
                   </h4>
-                  <br></br>
-                  <p>
-                    Evaluated and ranked LLM-generated code solutions for
-                    accuracy, efficiency, and best practices, providing
-                    technical feedback to improve AI performance in software
-                    development.
+                  <span className="text-sm text-gray-400">
+                    Oct 2024 – Apr 2025
+                  </span>
+
+                  <p className="mt-3">
+                    Evaluated and ranked LLM-generated code for correctness, performance,
+                    and best practices, providing detailed technical feedback to improve AI
+                    model outputs.
                   </p>
                 </div>
+
+                {/* iSchool */}
                 <div>
                   <h4 className="font-bold">
-                    Programming Instructor at iSchool (Jun 2024 - Oct 2024)
+                    Programming Instructor — iSchool
                   </h4>
-                  <br></br>
-                  <p>
-                    Delivered engaging Scratch and Python lessons through
-                    hands-on projects, personalized mentorship, and structured
-                    assessments to support student progress and tackle
-                    programming challenges.
+                  <span className="text-sm text-gray-400">
+                    Jun 2024 – Oct 2024
+                  </span>
+
+                  <p className="mt-3">
+                    Delivered hands-on programming lessons in Scratch and Python, focusing
+                    on problem-solving, project-based learning, and personalized mentorship
+                    for students.
                   </p>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </RevealOnScroll>
